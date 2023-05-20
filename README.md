@@ -1,10 +1,10 @@
-# dexbot
+# suchdex bot (forked from proton dexbot)
 
-This is the code for both market maker and grid trading bot strategies against the Proton DEX 
+This is the code for both market maker and grid trading bot strategies against the Proton DEX (and SuchDEX) 
 ### API and docs information
-  Website: https://protondex.com. 
+  Website: https://suchdex.com || https://protondex.com. 
   
-  Docs: https://docs.protondex.com. 
+  Docs: https://docs.suchdex.com || https://docs.protondex.com. 
   
   API Reference: https://api-docs.protondex.com
   
@@ -19,11 +19,11 @@ GRID BOT:
     Bot automatically buys low and sells high based on the parameters you have set.
     
     Example:
-      "symbol": "XBTC_XMD",
+      "symbol": "XDOGE_XMD",
       "upperLimit": 23000,
       "lowerLimit": 21000,
       "gridLevels": 10,
-      "bidAmountPerLevel": 0.0001
+      "bidAmountPerLevel": 5.0
 
     Above setting would set 10 grid levels with each grid size i.e. (23300 - 23100)/10 = 200
     Note: The orders closet to the sale price would be elimiated on placing Initial orders.
@@ -42,6 +42,7 @@ NOTE: User balance and open orders can be integrated to slack channel on running
 ### prerequisites
 - a proton account (https://www.proton.org/wallet/)
 - enough funds in your account to buy and/or sell in the market that you want to trade in
+- mint XMD at MetalDollar.com
 
 ### run the code
 1. `npm install`
