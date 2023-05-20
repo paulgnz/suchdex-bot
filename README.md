@@ -31,7 +31,7 @@ GRID BOT:
 Market Maker BOT:
  This bot works against multiple markets to place orders based on levels defined in settings. The purpose of the market making strategy is to put buy and sell orders on the DEX' order books. This strategy doesn’t care about which way the market’s going. The strategy places a ladder of sells at regular intervals above base price, and another ladder of buys beneath it. Use this as a reference and implement yor own trading algorithm.
 
-The bots has been tested on the mainnet with different pairs like XPR_XUSDC, XPR_XMD, and XETH_XMD etc. A new market can always be added under pairs section and restart bot to take effect.
+The bots has been tested on the mainnet with XDOGE_XMD. A new market can always be added under pairs section and restart bot to take effect.
 
 NOTE: Cancelling orders - Script called `cancel-orders-mainnet.js` and `cancel-orders-testnet.js` are available to cancel either market specific or all open orders by the user.
 
