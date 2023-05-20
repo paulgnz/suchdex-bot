@@ -9,7 +9,7 @@
     "marketMaker": {
       "pairs": [
         {
-          "symbol": "XPR_XUSDC",
+          "symbol": "XDOGE_XMD",
           "gridLevels": 4,
           "gridInterval": 0.01,
           "base": "BOTH",
@@ -20,25 +20,11 @@
     "gridBot": {
       "pairs": [
         {
-          "symbol": "XBTC_XMD",
-          "upperLimit": 28000,
-          "lowerLimit": 19000,
-          "gridLevels": 50,
-          "bidAmountPerLevel": 0.0001
-        },
-        {
-          "symbol": "XETH_XMD",
-          "upperLimit": 2300,
-          "lowerLimit": 1400,
-          "gridLevels": 10,
-          "bidAmountPerLevel": 0.001
-        },
-        {
-          "symbol": "XPR_XMD",
-          "upperLimit": 0.002,
-          "lowerLimit": 0.001,
-          "gridLevels": 50,
-          "bidAmountPerLevel": 1000
+          "symbol": "XDOGE_XMD",
+          "upperLimit": 0.090,
+          "lowerLimit": 0.070,
+          "gridLevels": 20,
+          "bidAmountPerLevel": 100
         }
       ]
     },
