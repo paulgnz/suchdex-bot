@@ -20,10 +20,10 @@ GRID BOT:
     
     Example:
       "symbol": "XDOGE_XMD",
-      "upperLimit": 23000,
-      "lowerLimit": 21000,
-      "gridLevels": 10,
-      "bidAmountPerLevel": 5.0
+      "upperLimit": 0.090,
+      "lowerLimit": 0.070,
+      "gridLevels": 20,
+      "bidAmountPerLevel": 100
 
     Above setting would set 10 grid levels with each grid size i.e. (23300 - 23100)/10 = 200
     Note: The orders closet to the sale price would be elimiated on placing Initial orders.
